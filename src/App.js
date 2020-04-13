@@ -5,9 +5,9 @@ import Person from './Person/Person';
 class App extends Component {
   state = {
     persons: [
-      {name: 'Camila', age: 37 },
-      {name: 'Marcel', age: 34 },
-      {name: 'Juju', age: 6 }
+      {name: 'Finn', age: 12 },
+      {name: 'Jake', age: 28 },
+      {name: 'Princess Bubblegum', age: 6 }
     ],
     otherState: 'some other value'
   }
@@ -18,9 +18,9 @@ class App extends Component {
     // DON'T DO THIS >> this.state.persons[0].name = 'Logan';
     this.setState( {
       persons: [
-        {name: 'Camila Yuri', age: 37 },
-        {name: 'Marcel', age: 34 },
-        {name: 'Juju', age: 5 }
+        {name: 'Finn', age: 17 },
+        {name: 'Jake', age: 34 },
+        {name: 'Marceline', age: 1000 }
       ]
     } )
   }
